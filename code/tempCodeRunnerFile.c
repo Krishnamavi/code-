@@ -5,7 +5,7 @@ printf("Enter the string 1: ");
 fgets(name1,50,stdin);
 printf("Your string is: ");
 puts(name1);
-char name2[];
+char name2[100];
 printf("Enter the string 2: ");
 fgets(name2,50,stdin);
 printf("Your string is:");
